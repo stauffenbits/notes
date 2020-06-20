@@ -276,6 +276,7 @@ var buildContextMenu = function(){
     build: function($trigger, e) {
 
       var menuAnchor = $fourd.resolve_click(e);
+      selected = menuAnchor;
       var targets = {};
       
       var uuids = vertices.keys();
